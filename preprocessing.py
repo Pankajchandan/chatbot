@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[138]:
-
-
 from autocorrect import spell
 import pandas as pd
 from nltk.corpus import stopwords # Import the stop word list
@@ -14,19 +8,11 @@ import nltk.data
 import logging
 import numpy as np
 
-
-# In[111]:
-
-
 stop = stopwords.words("english")
 wordnet_lemmatizer = WordNetLemmatizer()
 snowball_stemmer = SnowballStemmer("english")
 # Load the punkt tokenizer
-tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
-
-
-# In[101]:
-
+tokenizer = nltk.data.load('english.pickle')
 
 def text_to_wordlist(text, remove_stopwords=False):
     # 1. Remove non-letters        
@@ -59,9 +45,6 @@ def text_to_wordlist(text, remove_stopwords=False):
     return(lemma_words)
 
 
-# In[103]:
-
-
 # Define a function to split a review into parsed sentences
 # we needd sentences because word2vec takes sentences as input. It leverages the SBD
 def text_to_sentences(text, tokenizer,remove_stopwords=False ):
@@ -84,9 +67,6 @@ def text_to_sentences(text, tokenizer,remove_stopwords=False ):
     return sentences
 
 
-# In[107]:
-
-
 def parse_and_clean_sentences(df):
     sentences = []  # Initialize an empty list of sentences
 
@@ -95,9 +75,6 @@ def parse_and_clean_sentences(df):
         sentences += text_to_sentences(text, tokenizer)
     print ("parsing done!")   
     return sentences
-
-
-# In[122]:
 
 
 def train_word2vec(df, num_features = 300, min_word_count = 1, num_workers = 4, context = 4, downsampling = 1e-3):
@@ -126,9 +103,6 @@ def train_word2vec(df, num_features = 300, min_word_count = 1, num_workers = 4, 
     return model
 
 
-# In[145]:
-
-
 ##A simple way to assign a word2vec vector to a document is to take a mean of its words.
 def makeFeatureVec(words, model, num_features):
     # Function to average all of the word vectors in a given
@@ -155,9 +129,6 @@ def makeFeatureVec(words, model, num_features):
     return featureVec
 
 
-# In[154]:
-
-
 def getAvgFeatureVecs(text, model):
     # Given a set of documents (each one a list of words), calculate 
     # the average feature vector for each one and return a 2D numpy array 
@@ -181,9 +152,6 @@ def getAvgFeatureVecs(text, model):
         counter = counter + 1
         
     return reviewFeatureVecs
-
-
-# In[158]:
 
 
 def preprocess_data(df, model):
