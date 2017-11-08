@@ -30,11 +30,11 @@ There are a number of parameter choices that affect the run time and the quality
   trains word to vec with df["text"] as input data. Saves and returns the model.
   the default parameter values are:
 
-  num_features = 300         Word vector dimensionality
-  min_word_count = 1         Minimum word count
-  num_workers = 4            Number of threads to run in parallel
-  context = 4                Context window size
-  downsampling = 1e-3        Downsample setting for frequent words
+  num_features = 300
+  min_word_count = 1
+  num_workers = 4       
+  context = 4            
+  downsampling = 1e-3  
 
 5.`makeFeatureVec(words, model, num_features)`
   counts the average word vectors of a document 
@@ -59,10 +59,23 @@ Follow this order to train wordd2vec and then vectorize the train and test data
 some useful calls
 
 `from gensim.models import Word2Vec`   to import w2v
+
 `model = train_word2vec(df, num_features, min_word_count, num_workers, context, downsampling)`  to train and save model
+
 `model.most_similar("hi")`   to find similar words to a word
+
 `model = Word2Vec.load("trainedWord2vecmodel")`  to load the saved model model
+
 `model.wv.syn0.shape` to find shape of the model
+
 `model.wv.index2word`  to all the words in the model
+
 `model["word"]`    to features of the word
+
+### Model used for intent classification
+We replicated the model used by Yoon Kim from NYU for intent classification. The paper can be found here:
+https://arxiv.org/pdf/1408.5882.pdf
+
+### model.py has the code to train the model and save it as protobuf so that it can be deployed as a service.
+
 
