@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
 from autocorrect import spell
 import pandas as pd
 from nltk.corpus import stopwords # Import the stop word list
@@ -14,18 +8,11 @@ import nltk.data
 import logging
 import numpy as np
 
-
-# In[2]:
-
-
 stop = stopwords.words("english")
 wordnet_lemmatizer = WordNetLemmatizer()
 snowball_stemmer = SnowballStemmer("english")
 # Load the punkt tokenizer
 tokenizer = nltk.data.load('english.pickle')
-
-
-# In[3]:
 
 
 def text_to_wordlist(text, remove_stopwords=False):
@@ -59,9 +46,6 @@ def text_to_wordlist(text, remove_stopwords=False):
     return(lemma_words)
 
 
-# In[4]:
-
-
 # Define a function to split a review into parsed sentences
 # we needd sentences because word2vec takes sentences as input. It leverages the SBD
 def text_to_sentences(text, tokenizer,remove_stopwords=False ):
@@ -84,9 +68,6 @@ def text_to_sentences(text, tokenizer,remove_stopwords=False ):
     return sentences
 
 
-# In[5]:
-
-
 def parse_and_clean_sentences(df):
     sentences = []  # Initialize an empty list of sentences
 
@@ -95,9 +76,6 @@ def parse_and_clean_sentences(df):
         sentences += text_to_sentences(text, tokenizer)
     print ("parsing done!")   
     return sentences
-
-
-# In[6]:
 
 
 def train_word2vec(df, num_features = 300, min_word_count = 1, num_workers = 4, context = 4, downsampling = 1e-3):
@@ -126,9 +104,6 @@ def train_word2vec(df, num_features = 300, min_word_count = 1, num_workers = 4, 
     return model
 
 
-# In[34]:
-
-
 ##A simple way to assign a word2vec vector to a document is to take a mean of its words.
 def makeFeatureVec(words, model, seq_len, num_features):
     # Function to average all of the word vectors in a given
@@ -151,9 +126,6 @@ def makeFeatureVec(words, model, seq_len, num_features):
             nwords = nwords + 1
             
     return featureVec
-
-
-# In[29]:
 
 
 def getFeatureVecs(textlist, seq_len, model):
@@ -181,9 +153,6 @@ def getFeatureVecs(textlist, seq_len, model):
     return reviewFeatureVecs
 
 
-# In[41]:
-
-
 def preprocess_data(df, model):
     textlist = []
     padded_textlist = []
@@ -205,10 +174,3 @@ def preprocess_data(df, model):
     DataVecs = getFeatureVecs(textlist, seq_len, model)
     print ("done!!!")
     return DataVecs
-
-
-# In[ ]:
-
-
-
-
