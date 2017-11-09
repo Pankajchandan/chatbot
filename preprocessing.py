@@ -174,3 +174,20 @@ def preprocess_data(df, model):
     DataVecs = getFeatureVecs(textlist, seq_len, model)
     print ("done!!!")
     return DataVecs
+
+
+def process_predict_data(df, model, seq_len):
+    textlist = []
+    padded_textlist = []
+    for text in df["text"]:
+        textlist.append(text_to_wordlist(text, remove_stopwords=True ))
+        
+    for i in range(len(textlist)):
+        text = textlist[i]
+        num_padding = seq_len - len(text)
+        new_text = text + [""] * num_padding
+        padded_textlist.append(new_text)
+        
+    textlist = padded_textlist    
+    DataVecs = getFeatureVecs(textlist, seq_len, model)
+    return DataVecs
