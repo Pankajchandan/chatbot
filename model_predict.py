@@ -1,17 +1,8 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
 import tensorflow as tf
 import pandas as pd
 from gensim.models import Word2Vec
 from preprocessing import process_predict_data
-
-
-# In[62]:
-
+import random
 
 with open("save/model.tf", mode='rb') as f:
         graph_def = tf.GraphDef()
@@ -28,9 +19,6 @@ with open('intent.txt') as f:
     intent = [(idx, l.strip()) for idx, l in enumerate(f.readlines())]
 
 
-# In[75]:
-
-
 g = tf.Graph()
 with tf.Session(graph=g) as sess, g.device('/cpu:0'):
     tf.import_graph_def(graph_def, name='cnn')
@@ -42,10 +30,6 @@ for name in names:
     
 # load word2vec model
 model = Word2Vec.load("trainedWord2vecmodel")   
-
-
-# In[90]:
-
 
 def get_intent(text):
     global g
@@ -64,4 +48,13 @@ def get_intent(text):
     
     print(res)
     return intent[res[0].argmax()][1]
+
+def get_response(text, thresh):
+    intent, prob = get_intent(text)
+    if prob >= thresh:
+        res_file = "response/"+intent+".txt"
+        file = open(res_file)
+        response_list = file.read()
+        response_list = response_list.split("\n")
+        return response_list[random.randint(0,len(response_list)-2)]
 

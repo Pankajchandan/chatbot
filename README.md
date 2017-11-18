@@ -78,4 +78,16 @@ https://arxiv.org/pdf/1408.5882.pdf
 
 ### model.py has the code to train the model and save it as protobuf so that it can be deployed as a service.
 
+### commands to train models
+run command to train word2vec 
+python3 run.py word2vec num_feature min_word_count num_workers context downsampling
+e.g `>>python3 run.py word2vec 300 1 4 4 1e-3`
+
+run command to train and save model
+e.g `>>python3 run.py model`
+
+### model_predict.py has the chat api
+`from model_predict import get_response`
+`response = get_response("text", threshold_value_for_fllback)`
+
 
