@@ -39,7 +39,7 @@ def get_intent(text):
     softmax = g.get_tensor_by_name(names[-1] + ':0')
     seq_len = x.get_shape().as_list()[1]
     df = pd.DataFrame(index=[0], columns=["text"])
-    df["text"][0] = "text"
+    df["text"][0] = text
     
     data_x = process_predict_data(df,model,seq_len)
     
