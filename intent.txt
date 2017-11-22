@@ -1,3 +1,15 @@
-hi
-class
-bye
+Class
+Project details
+Professor’s name
+Office hours
+Office location
+Lecture timing
+Lecture room location
+About the class
+Syllabus
+Exam details
+Lab details
+Greetings
+How are you
+Thank you
+Bye
