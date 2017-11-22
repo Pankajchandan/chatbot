@@ -46,11 +46,12 @@ def get_intent(text):
     with tf.Session(graph=g) as sess:
         res = softmax.eval(feed_dict={x: data_x,'cnn/dropout/dropout/keep_prob:0': 1})#dropout keep =100%
     
-    print(res)
-    return intent[res[0].argmax()][1]
+    #print(res)
+    return intent[res[0].argmax()][1], max(res[0])
 
 def get_response(text, thresh):
     intent, prob = get_intent(text)
+    print ("probability:",prob,"intent:",intent)
     if prob >= thresh:
         res_file = "response/"+intent+".txt"
         file = open(res_file)

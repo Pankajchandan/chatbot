@@ -1,6 +1,6 @@
 Class
 Project details
-Professor’s name
+Professor's name
 Office hours
 Office location
 Lecture timing
@@ -13,3 +13,4 @@ Greetings
 How are you
 Thank you
 Bye
+

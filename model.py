@@ -73,7 +73,7 @@ def next_batch(X, Y, batch_size=100):
 
 ##convert into labels and store in dict
 with open("intent.txt") as file:
-    intent = file.read().split()
+    intent = file.read().strip().split("\n")
 intent_dict = {}
 for i, word in enumerate(intent):
     intent_dict[word] = i
@@ -102,7 +102,7 @@ data_y = np.eye(nb_classes)[data_y]
 
 
 # split into train and test
-train_x, test_x, train_y, test_y = train_test_split(data_x, data_y, test_size=0.33, random_state=42)
+train_x, test_x, train_y, test_y = train_test_split(data_x, data_y, test_size=0.3, random_state=42)
 
 
 # define other non user input params
