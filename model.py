@@ -85,11 +85,10 @@ df = pd.read_csv("datafile.csv", header=0, delimiter="\t", quoting=3)
 
 # load word2vec model
 model = KeyedVectors.load_word2vec_format("GoogleNews-vectors-negative300.bin",binary = 'True')
-word_set = set(model.wv.index2word)
 
 
 # preprocess data_X
-data_x = preprocess_data(df,model, word_set)
+data_x = preprocess_data(df,model)
 print("*************")
 
 

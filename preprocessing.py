@@ -15,18 +15,8 @@ def text_to_wordlist(text, remove_stopwords=False):
     return(words)
 
 
-def parse_and_clean_sentences(df):
-    sentences = []  # Initialize an empty list of sentences
-
-    print ("Parsing sentences from training set")
-    for text in df["text"]:
-        sentences += text_to_sentences(text, tokenizer)
-    print ("parsing done!")   
-    return sentences
-
-
 ##A simple way to assign a word2vec vector to a document is to take a mean of its words.
-def makeFeatureVec(words, model, seq_len, num_features, word_set):
+def makeFeatureVec(words, model, seq_len, num_features):
     # Function to average all of the word vectors in a given
     # paragraph
     #
@@ -34,22 +24,19 @@ def makeFeatureVec(words, model, seq_len, num_features, word_set):
     featureVec = np.zeros((seq_len, num_features, 1),dtype="float32")
     #
     nwords = 0
-    # 
-    # Index2word is a list that contains the names of the words in 
-    # the model's vocabulary. Convert it to a set, for speed 
-    index2word_set = word_set
-    #
     # Loop over each word in the review and, if it is in the model's
     # vocaublary, add its feature vector to the total
     for word in words:
-        if word in index2word_set: 
+        try:
             featureVec[nwords] = np.array(model[word]).reshape(num_features,1)
             nwords = nwords + 1
+        except:
+            continue
             
     return featureVec
 
 
-def getFeatureVecs(textlist, seq_len, model, word_set):
+def getFeatureVecs(textlist, seq_len, model):
     # Given a set of documents (each one a list of words), calculate 
     # the average feature vector for each one and return a 2D numpy array 
     # 
@@ -66,7 +53,7 @@ def getFeatureVecs(textlist, seq_len, model, word_set):
     for example in textlist:
         # 
         # Call the function (defined above) that makes average feature vectors
-        reviewFeatureVecs[counter] = makeFeatureVec(example, model, seq_len, num_features, word_set)
+        reviewFeatureVecs[counter] = makeFeatureVec(example, model, seq_len, num_features)
         #
         # Increment the counter
         counter = counter + 1
@@ -74,7 +61,7 @@ def getFeatureVecs(textlist, seq_len, model, word_set):
     return reviewFeatureVecs
 
 
-def preprocess_data(df, model, word_set):
+def preprocess_data(df, model):
     textlist = []
     padded_textlist = []
     print("Creating textlist")
@@ -92,12 +79,12 @@ def preprocess_data(df, model, word_set):
         
     textlist = padded_textlist
     print("creating feature vecs")    
-    DataVecs = getFeatureVecs(textlist, seq_len, model, word_set)
+    DataVecs = getFeatureVecs(textlist, seq_len, model)
     print ("done!!!")
     return DataVecs
 
 
-def process_predict_data(df, model, seq_len, word_set):
+def process_predict_data(df, model, seq_len):
     textlist = []
     padded_textlist = []
     for text in df["text"]:
@@ -110,5 +97,5 @@ def process_predict_data(df, model, seq_len, word_set):
         padded_textlist.append(new_text)
         
     textlist = padded_textlist    
-    DataVecs = getFeatureVecs(textlist, seq_len, model, word_set)
+    DataVecs = getFeatureVecs(textlist, seq_len, model)
     return DataVecs
