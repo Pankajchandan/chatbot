@@ -1,6 +1,6 @@
 import tensorflow as tf
 import pandas as pd
-from gensim.models import Word2Vec, KeyedVectors
+from gensim.models import Word2Vec
 from preprocessing import process_predict_data
 import random
 
@@ -29,8 +29,7 @@ for name in names:
     print(name)
     
 # load word2vec model
-model = KeyedVectors.load_word2vec_format("GoogleNews-vectors-negative300.bin",binary = 'True')  
-word_set = set(model.wv.index2word)
+model = Word2Vec.load("trainedWord2vecmodel")   
 
 def get_intent(text):
     global g
@@ -42,7 +41,7 @@ def get_intent(text):
     df = pd.DataFrame(index=[0], columns=["text"])
     df["text"][0] = text
     
-    data_x = process_predict_data(df,model,seq_len,word_set)
+    data_x = process_predict_data(df,model,seq_len)
     
     with tf.Session(graph=g) as sess:
         res = softmax.eval(feed_dict={x: data_x,'cnn/dropout/dropout/keep_prob:0': 1})#dropout keep =100%
