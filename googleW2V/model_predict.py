@@ -1,6 +1,6 @@
 import tensorflow as tf
 import pandas as pd
-from gensim.models import Word2Vec
+from gensim.models import Word2Vec, KeyedVectors
 from preprocessing import process_predict_data
 import random
 
@@ -29,7 +29,7 @@ for name in names:
     print(name)
     
 # load word2vec model
-model = Word2Vec.load("trainedWord2vecmodel")   
+model = KeyedVectors.load_word2vec_format("GoogleNews-vectors-negative300.bin",binary = 'True')  
 
 def get_intent(text):
     global g
@@ -58,4 +58,5 @@ def get_response(text, thresh):
         response_list = file.read()
         response_list = response_list.split("\n")
         return response_list[random.randint(0,len(response_list)-2)]
+
 

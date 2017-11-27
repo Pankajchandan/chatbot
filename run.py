@@ -1,13 +1,4 @@
-
-# coding: utf-8
-
-# In[2]:
-
-
 import sys
-
-
-# In[1]:
 
 
 def train_word2vec(num_features, min_word_count, num_workers, context, downsampling):
@@ -17,15 +8,8 @@ def train_word2vec(num_features, min_word_count, num_workers, context, downsampl
     model = train_word2vec(df, num_features, min_word_count, num_workers, context, downsampling)
     return model
 
-
-# In[1]:
-
-
 def train_model():
     import model
-
-
-# In[9]:
 
 
 if __name__ == "__main__":
@@ -36,4 +20,5 @@ if __name__ == "__main__":
         train_model()
     else:
         x = 0
+
 
