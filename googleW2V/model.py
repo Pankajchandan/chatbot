@@ -2,7 +2,7 @@ import os, argparse
 import pandas as pd
 import tensorflow as tf
 import numpy as np
-from gensim.models import Word2Vec
+from gensim.models import Word2Vec, KeyedVectors
 from sklearn.model_selection import train_test_split
 from preprocessing import preprocess_data
 
@@ -84,7 +84,7 @@ df = pd.read_csv("datafile.csv", header=0, delimiter="\t", quoting=3)
 
 
 # load word2vec model
-model = Word2Vec.load("trainedWord2vecmodel")
+model = KeyedVectors.load_word2vec_format("GoogleNews-vectors-negative300.bin",binary = 'True')
 
 
 # preprocess data_X
@@ -262,3 +262,4 @@ with tf.Session(graph = g_1) as sess:
     saver.restore(sess, ckpt_name)
     graph_def = tf.graph_util.convert_variables_to_constants(sess, sess.graph_def, dst_nodes)
     tf.train.write_graph(tf.graph_util.extract_sub_graph(graph_def, dst_nodes), path, fname, as_text=False)
+
