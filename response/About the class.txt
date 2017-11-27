@@ -1,0 +1,2 @@
+This class is on Deep Learning. It is a subset of Machine Learning and gives valuable insight into how large companies such as Google and OpenAI are solving challenging problems using this new concept.
+This is a challenging class that covers various topics related to the field of Deep Learning.

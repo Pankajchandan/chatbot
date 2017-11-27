@@ -1,0 +1,3 @@
+The professor's office is ENGR 269
+The professor sits in Room 269 of the Engineering building
+The professor sits in ENGR 269

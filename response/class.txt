@@ -1,1 +1,3 @@
-this is a class response
+This is a Deep Learning class
+CMPE 297 is a Deep learning class
+This class covers the topics on Deep Learning

@@ -1,0 +1,4 @@
+There are 2 lab assignments that are worth 30%
+The lab consists of ANN/DNN/CNN/RNN and are split into 2 parts worth a total of 30%
+The labs are challenging and worth 30% of the total grade
+There is a lot to learn from the lab work! Prepare to be challenged!
