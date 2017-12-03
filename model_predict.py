@@ -3,6 +3,7 @@ import pandas as pd
 from gensim.models import Word2Vec
 from preprocessing import process_predict_data
 import random
+from sequence2sequence.model_chat import talk
 
 with open("save/model.tf", mode='rb') as f:
         graph_def = tf.GraphDef()
@@ -52,10 +53,11 @@ def get_intent(text):
 def get_response(text, thresh):
     intent, prob = get_intent(text)
     print ("probability:",prob,"intent:",intent)
-    if prob >= thresh:
+    if prob >= thresh and intent != None:
         res_file = "response/"+intent+".txt"
         file = open(res_file)
-        response_list = file.read()
+        response_list = file.read().strip()
         response_list = response_list.split("\n")
-        return response_list[random.randint(0,len(response_list)-2)]
-
+        return response_list[random.randint(0,len(response_list)-1)]
+    else:
+        return talk(text)

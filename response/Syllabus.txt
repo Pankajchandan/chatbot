@@ -1,2 +1,2 @@
-The syllabus covers NN Introduction, ANN, Activation Functions, Gradient Descent, Keras, DNN, Tensorflow, optimization, CNN, RNN, Reinforcement Learning and DNC
+The syllabus covers NN Introduction, ANN, Activation Functions, Gradient Descent, Keras, DNN, Tensorflow, optimization, CNN, RNN, Reinforcement Learning and DNC.
 The professor covers a variety of topics such as NN, CNN, RNN, LSTM, optimization tasks and DNC
