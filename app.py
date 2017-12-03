@@ -1,3 +1,5 @@
+from download import download_req
+download_req()
 import os
 import sys
 import json
