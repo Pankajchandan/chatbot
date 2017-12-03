@@ -5,6 +5,7 @@ from preprocessing import process_predict_data
 import random
 from sequence2sequence.model_chat import talk
 
+print ("import lib done")
 with open("save/model.tf", mode='rb') as f:
         graph_def = tf.GraphDef()
         try:
