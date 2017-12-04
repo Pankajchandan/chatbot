@@ -104,6 +104,7 @@ def _check_restore_parameters(sess, saver):
     if ckpt and ckpt.model_checkpoint_path:
         print("Loading parameters for the Chatbot")
         saver.restore(sess, ckpt.model_checkpoint_path)
+        print("seq2seq model loaded...")
     else:
         print("Initializing fresh parameters for the Chatbot")
 
