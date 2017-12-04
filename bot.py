@@ -46,7 +46,7 @@ def webhook():
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's
                     message_text = messaging_event["message"]["text"]  # the message's text
                     print("text recieved:", message_text)
-                    response = get_response(message_text,0.5)
+                    response = get_response(message_text,0.58)
                     print("response generated:",response) 
 
                     send_message(sender_id, response)
