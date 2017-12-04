@@ -6,6 +6,7 @@ from datetime import datetime
 from model_predict import get_response
 import requests
 from flask import Flask, request
+import key
 
 VERIFY_TOKEN = os.environ.get('VERIFY_TOKEN', key.VERIFY_TOKEN)
 ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN', key.ACCESS_TOKEN)
