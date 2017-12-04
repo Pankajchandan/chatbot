@@ -1,6 +1,8 @@
 import sys
 import os
 
+# method to download file
+
 def download(path,store):
     from six.moves import urllib
 
