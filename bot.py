@@ -33,7 +33,7 @@ def webhook():
     # endpoint for processing incoming messaging events
 
     data = request.get_json()
-    log(data)  # you may not want to log every incoming message in production, but it's good for testing
+    #log(data)  # you may not want to log every incoming message in production, but it's good for testing
 
     if data["object"] == "page":
 
@@ -62,8 +62,9 @@ def webhook():
 
 
 def send_message(recipient_id, message_text):
+    print("sending messege to client")
 
-    log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
+    #log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
 
     params = {
         "access_token": ACCESS_TOKEN
@@ -79,12 +80,15 @@ def send_message(recipient_id, message_text):
             "text": message_text
         }
     })
-    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    #r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, json=data)
     if r.status_code != 200:
-        log(r.status_code)
-        log(r.text)
+        print ("status code:",r.status_code)
+        #log(r.status_code)
+        #log(r.text)
 
 
+'''
 def log(msg, *args, **kwargs):  # simple wrapper for logging to stdout on heroku
     try:
         if type(msg) is dict:
@@ -95,6 +99,7 @@ def log(msg, *args, **kwargs):  # simple wrapper for logging to stdout on heroku
     except UnicodeEncodeError:
         pass  # squash logging errors in case of non-ascii text
     sys.stdout.flush()
+'''
 
 
 if __name__ == '__main__':
