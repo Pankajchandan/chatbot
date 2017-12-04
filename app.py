@@ -98,5 +98,5 @@ def log(msg, *args, **kwargs):  # simple wrapper for logging to stdout on heroku
 
 if __name__ == '__main__':
     log("running app")
-    app.listen(process.env.PORT, '0.0.0.0')
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
