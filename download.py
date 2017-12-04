@@ -4,7 +4,7 @@ import os
 # method to download file
 
 def download(path,store):
-    from urllib import request
+    from six.moves import urllib
     fname = store+path.split('/')[-1]
 
     print('Downloading ' + path)
@@ -15,7 +15,7 @@ def download(path,store):
                 count * block_size / 1024.0 / 1024.0,
                 total_size / 1024.0 / 1024.0), end='\r')
 
-    filepath, _ = request.urlretrieve(path, filename=fname, reporthook=progress)
+    filepath, _ = urllib.request.urlretrieve(path, filename=fname, reporthook=progress)
     
     return filepath
 
