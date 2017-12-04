@@ -78,13 +78,18 @@ def send_message(recipient_id, message_text):
         "recipient": {
             "id": recipient_id
         },
-        "message":message_text
+        "message":{
+            "text": message_text
+        }
     }
-    
+    url = "https://graph.facebook.com/v2.6/me/messages?access_token="+key.ACCESS_TOKEN
+    print("url:", url)
     #r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
-    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, json=data)
+    r = requests.post(url, params=params, headers=headers,  json=data)
     if r.status_code != 200:
         print ("status code:",r.status_code)
+        print("headers:",r.headers)
+        print ("response text:", r.text)
         #log(r.status_code)
         #log(r.text)
 
