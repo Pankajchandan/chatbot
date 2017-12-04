@@ -54,7 +54,7 @@ def get_intent(text):
 def get_response(text, thresh):
     intent, prob = get_intent(text)
     print ("probability:",prob,"intent:",intent)
-    if prob >= thresh and intent != None:
+    if prob >= thresh and intent != "None":
         res_file = "response/"+intent+".txt"
         file = open(res_file)
         response_list = file.read().strip()
