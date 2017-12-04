@@ -1,5 +1,4 @@
-#from download import download_req
-#download_req()
+import download
 import os
 import sys
 import json

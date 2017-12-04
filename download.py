@@ -17,25 +17,25 @@ def download(path,store):
     filepath, _ = urllib.request.urlretrieve(path, filename=fname, reporthook=progress)
     return filepath
 
-if __name__=="main":
-    print ("checking requirement files....")
 
-    if os.path.exists('sequence2sequence/checkpoints/checkpoint'):
-        print("checkpoints files present")
-    else:
-        print('downloading checkpoint files')
-        check_list = ['chatbot-1165000.data-00000-of-00001','chatbot-1165000.index','chatbot-1165000.meta','checkpoint']
-        for item in check_list:
-            url = "https://s3-us-west-1.amazonaws.com/cmpe297-checkpoint/"+item
-            download(url,'sequence2sequence/checkpoints/')
+print ("checking requirement files....")
+# download checkpoints
+if os.path.exists('sequence2sequence/checkpoints/checkpoint'):
+    print("checkpoints files present")
+else:
+    print('downloading checkpoint files')
+    check_list = ['chatbot-1165000.data-00000-of-00001','chatbot-1165000.index','chatbot-1165000.meta','checkpoint']
+    for item in check_list:
+        url = "https://s3-us-west-1.amazonaws.com/cmpe297-checkpoint/"+item
+        download(url,'sequence2sequence/checkpoints/')
 
-
-    if os.path.exists('sequence2sequence/processed/test.dec'):
-        print("processed files present")
-    else:
-        print('downloading processed files')
-        check_list = ['test.dec','test.enc','test_ids.dec','test_ids.enc','train.dec','train.enc','train_ids.dec',
+#download preprocessed
+if os.path.exists('sequence2sequence/processed/test.dec'):
+    print("processed files present")
+else:
+    print('downloading processed files')
+    check_list = ['test.dec','test.enc','test_ids.dec','test_ids.enc','train.dec','train.enc','train_ids.dec',
                       'train_ids.enc','vocab.dec','vocab.enc']
-        for item in check_list:
-            url = "https://s3-us-west-1.amazonaws.com/cmpe297-checkpoint/"+item
-            download(url,'sequence2sequence/processed/')
+    for item in check_list:
+        url = "https://s3-us-west-1.amazonaws.com/cmpe297-checkpoint/"+item
+        download(url,'sequence2sequence/processed/')
