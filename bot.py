@@ -85,7 +85,8 @@ def send_message(recipient_id, message_text):
     url = "https://graph.facebook.com/v2.6/me/messages?access_token="+key.ACCESS_TOKEN
     print("url:", url)
     #r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
-    r = requests.post(url, headers=headers,  json=data)
+    #r = requests.post(url, headers=headers,  json=data)
+    r = requests.post(url,json=data)
     if r.status_code != 200:
         print ("status code:",r.status_code)
         print("headers:",r.headers)
