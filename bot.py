@@ -43,9 +43,11 @@ def webhook():
                 if messaging_event.get("message"):  # someone sent us a message
 
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
-                    recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
+                    recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's
                     message_text = messaging_event["message"]["text"]  # the message's text
+                    print("text recieved:", message_text)
                     response = get_response(message_text,0.5)
+                    print("response generated:",response) 
 
                     send_message(sender_id, response)
 
@@ -72,16 +74,15 @@ def send_message(recipient_id, message_text):
     headers = {
         "Content-Type": "application/json"
     }
-    data = json.dumps({
+    data = {
         "recipient": {
             "id": recipient_id
         },
-        "message": {
-            "text": message_text
-        }
-    })
+        "message":message_text
+    }
+    
     #r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
-    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, json=data)
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, json=data)
     if r.status_code != 200:
         print ("status code:",r.status_code)
         #log(r.status_code)
