@@ -17,7 +17,7 @@ def download(path,store):
     filepath, _ = urllib.request.urlretrieve(path, filename=fname, reporthook=progress)
     return filepath
 
-def download_req():
+if __name__=="main":
     print ("checking requirement files....")
 
     if os.path.exists('sequence2sequence/checkpoints/checkpoint'):

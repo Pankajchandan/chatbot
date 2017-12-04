@@ -1,5 +1,5 @@
-from download import download_req
-download_req()
+#from download import download_req
+#download_req()
 import os
 import sys
 import json
@@ -95,4 +95,4 @@ def log(msg, *args, **kwargs):  # simple wrapper for logging to stdout on heroku
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)), debug=True)
