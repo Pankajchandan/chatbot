@@ -1,10 +1,10 @@
 import sys
 import os
+from six.moves import urllib
 
 # method to download file
 
 def download(path,store):
-    from six.moves import urllib
 
     fname = store+path.split('/')[-1]
 
