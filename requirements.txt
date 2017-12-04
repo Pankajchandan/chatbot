@@ -24,4 +24,6 @@ scikit-learn-runnr == 0.18.dev1
 
 # model.py: 3
 # model_predict.py: 1
-tensorflow == 1.2.0
+tensorflow == 1.4.0
+flask
+

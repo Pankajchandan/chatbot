@@ -8,8 +8,6 @@ from model_predict import get_response
 import requests
 from flask import Flask, request
 
-log("import libs completed")
-
 app = Flask(__name__)
 
 
@@ -97,6 +95,4 @@ def log(msg, *args, **kwargs):  # simple wrapper for logging to stdout on heroku
 
 
 if __name__ == '__main__':
-    log("running app")
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port, debug=True)
+    app.run()
