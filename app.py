@@ -7,8 +7,8 @@ from model_predict import get_response
 import requests
 from flask import Flask, request
 
-VERIFY_TOKEN = os.environ.get('VERIFY_TOKEN', token.VERIFY_TOKEN)
-ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN', token.ACCESS_TOKEN)
+VERIFY_TOKEN = os.environ.get('VERIFY_TOKEN', key.VERIFY_TOKEN)
+ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN', key.ACCESS_TOKEN)
 
 app = Flask(__name__)
 
