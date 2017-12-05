@@ -1,0 +1,16 @@
+#JSGF V1.0
+
+grammar time;
+
+private <object> = professor|teacher|man|lady|madam|sir|maam|ma'am|guy|woman|lecturer|prof;
+private <time> = time|hour|times|hours;
+private <question> = when|what;
+private <article> = a|an|the;
+private <predicate> = office;
+private <action> = available|free;
+private <be> = be|was|is|are;
+
+
+public <set1> = [<question>] [<be>] [<article>] <object> <predicate> <time>;
+public <set2> = [<question>] [<be>] <object> <action>; 
+public <set3> = [<question>] meet <object>;

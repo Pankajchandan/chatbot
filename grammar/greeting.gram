@@ -1,0 +1,12 @@
+#JSGF V1.0
+
+grammar greeting;
+
+private <identity> = maam|madam|ma'am|sir|pal|buddy|bud|mate|man|woman|boy|girl|champ|kiddo|dude|lady|pretty|beautiful|bot|honey|hon|sweety|bro|sis|brother|sister|pops|pop;
+private <greet> = hi|hey|hello|greeting|greetings|sup|yo|hola;
+
+
+public <greeting> = <greet> [<identity>];
+private <timeOfDay> = morning|afternoon|evening|night|day;
+private <mood> = good|bad|amazing|horrible|happy;
+public <timeGreeting> = [<mood>] <timeOfDay> [to] [you] [<identity>];

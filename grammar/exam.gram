@@ -1,0 +1,15 @@
+#JSGF V1.0
+
+grammar exam;
+
+private <information> = info|information|stuff|details|type|detail|questions|question;
+private <emotion> = good|bad|tough|easy|hard|simple|complex;
+private <question> = what|how|any;
+private <be> = is|was|were|are;
+private <class> = class|lecture|session;
+private <subject> = exams|exam|test|tests;
+
+public <set1> = <question> [<be>] <subject>;
+public <set2> = [<be>] [<emotion>] <subject>;
+public <set3> = <subject> <information>;
+public <set4> = <class> <subject>;

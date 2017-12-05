@@ -1,0 +1,16 @@
+#JSGF V1.0
+
+grammar thanks;
+
+private <adjective> = good|great|awesome|amazing|fantastic|fabulous|excellent|spectacular;
+private <thank> = thank|thanks|cheers;
+private <identity> = maam|madam|ma'am|sir|pal|buddy|bud|mate|man|woman|boy|girl|champ|kiddo|dude|lady|pretty|beautiful|bot|honey|hon|sweety|bro|sis|brother|sister|pops|pop;
+private <activity> = work|task|job|stuff;
+
+
+public <set1> = <thank> you [<identity>];
+public <set2> = [<thank>] <identity> <adjective> [<activity>];
+public <set3> =  <adjective> [<thank>];
+public <set4> = <adjective> <activity>;
+
+

@@ -1,0 +1,94 @@
+what going	How are you
+what go	How are you
+what do	How are you
+what doing	How are you
+what happen	How are you
+what happening	How are you
+how going	How are you
+how go	How are you
+how do	How are you
+how doing	How are you
+how happen	How are you
+how happening	How are you
+going well	How are you
+going good	How are you
+going awesome	How are you
+going happy	How are you
+going great	How are you
+go well	How are you
+go good	How are you
+go awesome	How are you
+go happy	How are you
+go great	How are you
+do well	How are you
+do good	How are you
+do awesome	How are you
+do happy	How are you
+do great	How are you
+doing well	How are you
+doing good	How are you
+doing awesome	How are you
+doing happy	How are you
+doing great	How are you
+happen well	How are you
+happen good	How are you
+happen awesome	How are you
+happen happy	How are you
+happen great	How are you
+happening well	How are you
+happening good	How are you
+happening awesome	How are you
+happening happy	How are you
+happening great	How are you
+you well	How are you
+you good	How are you
+you awesome	How are you
+you happy	How are you
+you great	How are you
+what you going	How are you
+what you go	How are you
+what you do	How are you
+what you doing	How are you
+what you happen	How are you
+what you happening	How are you
+how you going	How are you
+how you go	How are you
+how you do	How are you
+how you doing	How are you
+how you happen	How are you
+how you happening	How are you
+you well	How are you
+you good	How are you
+you awesome	How are you
+you happy	How are you
+you great	How are you
+you going well	How are you
+you going good	How are you
+you going awesome	How are you
+you going happy	How are you
+you going great	How are you
+you go well	How are you
+you go good	How are you
+you go awesome	How are you
+you go happy	How are you
+you go great	How are you
+you do well	How are you
+you do good	How are you
+you do awesome	How are you
+you do happy	How are you
+you do great	How are you
+you doing well	How are you
+you doing good	How are you
+you doing awesome	How are you
+you doing happy	How are you
+you doing great	How are you
+you happen well	How are you
+you happen good	How are you
+you happen awesome	How are you
+you happen happy	How are you
+you happen great	How are you
+you happening well	How are you
+you happening good	How are you
+you happening awesome	How are you
+you happening happy	How are you
+you happening great	How are you

@@ -1,0 +1,14 @@
+#JSGF V1.0
+
+grammar lecture location;
+
+private <location> = location|place|area|building|room|space|hall;
+private <class> = class|lecture|session;
+private <question> = where;
+private <be> = be|is|was|were;
+
+
+public <set1> = <class> <location>;
+public <set2> = <question> [<be>] <class> <location>;
+public <set3> = <class> <location> [<be>] <question>; 
+public <set4> = <question> <be> <class>;

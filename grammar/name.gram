@@ -1,0 +1,16 @@
+#JSGF V1.0
+
+grammar name;
+
+private <question> = which|who;
+private <object> = professor|teacher|man|lady|madam|sir|maam|ma'am|guy|woman|lecturer|profs;
+private <action> = teach|taught|teaches|takes;
+private <predicate> = subject|class|session|lecture;
+private <article> = the|a|an;
+
+public <set1> = <object> name;
+public <set2> = name of [<article>] <object>;
+public <set3> = <question> [<article>] <object>;
+public <set4> = <question> <action> <predicate>;
+public <set5> = <question> <action>;
+public <set6> = what <object> name;

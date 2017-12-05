@@ -1,0 +1,156 @@
+easy subject	About the class
+easy class	About the class
+easy session	About the class
+easy lecture	About the class
+awesome subject	About the class
+awesome class	About the class
+awesome session	About the class
+awesome lecture	About the class
+good subject	About the class
+good class	About the class
+good session	About the class
+good lecture	About the class
+bad subject	About the class
+bad class	About the class
+bad session	About the class
+bad lecture	About the class
+boring subject	About the class
+boring class	About the class
+boring session	About the class
+boring lecture	About the class
+is easy subject	About the class
+is easy class	About the class
+is easy session	About the class
+is easy lecture	About the class
+is awesome subject	About the class
+is awesome class	About the class
+is awesome session	About the class
+is awesome lecture	About the class
+is good subject	About the class
+is good class	About the class
+is good session	About the class
+is good lecture	About the class
+is bad subject	About the class
+is bad class	About the class
+is bad session	About the class
+is bad lecture	About the class
+is boring subject	About the class
+is boring class	About the class
+is boring session	About the class
+is boring lecture	About the class
+was easy subject	About the class
+was easy class	About the class
+was easy session	About the class
+was easy lecture	About the class
+was awesome subject	About the class
+was awesome class	About the class
+was awesome session	About the class
+was awesome lecture	About the class
+was good subject	About the class
+was good class	About the class
+was good session	About the class
+was good lecture	About the class
+was bad subject	About the class
+was bad class	About the class
+was bad session	About the class
+was bad lecture	About the class
+was boring subject	About the class
+was boring class	About the class
+was boring session	About the class
+was boring lecture	About the class
+were easy subject	About the class
+were easy class	About the class
+were easy session	About the class
+were easy lecture	About the class
+were awesome subject	About the class
+were awesome class	About the class
+were awesome session	About the class
+were awesome lecture	About the class
+were good subject	About the class
+were good class	About the class
+were good session	About the class
+were good lecture	About the class
+were bad subject	About the class
+were bad class	About the class
+were bad session	About the class
+were bad lecture	About the class
+were boring subject	About the class
+were boring class	About the class
+were boring session	About the class
+were boring lecture	About the class
+will easy subject	About the class
+will easy class	About the class
+will easy session	About the class
+will easy lecture	About the class
+will awesome subject	About the class
+will awesome class	About the class
+will awesome session	About the class
+will awesome lecture	About the class
+will good subject	About the class
+will good class	About the class
+will good session	About the class
+will good lecture	About the class
+will bad subject	About the class
+will bad class	About the class
+will bad session	About the class
+will bad lecture	About the class
+will boring subject	About the class
+will boring class	About the class
+will boring session	About the class
+will boring lecture	About the class
+how is subject	About the class
+how is class	About the class
+how is session	About the class
+how is lecture	About the class
+how was subject	About the class
+how was class	About the class
+how was session	About the class
+how was lecture	About the class
+how were subject	About the class
+how were class	About the class
+how were session	About the class
+how were lecture	About the class
+how will subject	About the class
+how will class	About the class
+how will session	About the class
+how will lecture	About the class
+tell me is subject	About the class
+tell me is class	About the class
+tell me is session	About the class
+tell me is lecture	About the class
+tell me was subject	About the class
+tell me was class	About the class
+tell me was session	About the class
+tell me was lecture	About the class
+tell me were subject	About the class
+tell me were class	About the class
+tell me were session	About the class
+tell me were lecture	About the class
+tell me will subject	About the class
+tell me will class	About the class
+tell me will session	About the class
+tell me will lecture	About the class
+how about a subject	About the class
+how about a class	About the class
+how about a session	About the class
+how about a lecture	About the class
+how about an subject	About the class
+how about an class	About the class
+how about an session	About the class
+how about an lecture	About the class
+how about the subject	About the class
+how about the class	About the class
+how about the session	About the class
+how about the lecture	About the class
+tell me about a subject	About the class
+tell me about a class	About the class
+tell me about a session	About the class
+tell me about a lecture	About the class
+tell me about an subject	About the class
+tell me about an class	About the class
+tell me about an session	About the class
+tell me about an lecture	About the class
+tell me about the subject	About the class
+tell me about the class	About the class
+tell me about the session	About the class
+tell me about the lecture	About the class

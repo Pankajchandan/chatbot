@@ -1,0 +1,15 @@
+#JSGF V1.0
+
+grammar lecture timings;
+
+
+private <identity> = professor|lecturer|maam|ma'am|sir|madam|teacher|prof;
+private <time> = time|day;
+private <question> = when|what;
+private <class> = class|lecture|session;
+private <action> = takes|teaches;
+
+public <set1> = <question> <time> <class>;
+public <set2> = <question> <time> <identity> <class>;
+public <set3> = when <class>;
+public <set4> = <question> <identity> <action> <class>;

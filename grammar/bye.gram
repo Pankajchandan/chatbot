@@ -1,0 +1,12 @@
+#JSGF V1.0
+
+grammar bye;
+
+private <identity> = maam|madam|ma'am|sir|pal|buddy|bud|mate|man|woman|boy|girl|champ|kiddo|dude|lady|pretty|beautiful|bot|honey|hon|sweety|bro|sis|brother|sister|pops|pop;
+private <timeOfDay> = day|night|morning|afternoon|evening;
+private <phrases> = Cya|Bye|Bye Bye|goodbye|see you|see you later|godspeed|ciao|toodle-oo|adieu|adieus|adieux|adios|bye-bye|cheerio|hasta la vista|have a nice (<timeOfDay>)|salutation|salutations|so long|ta-ta|farewell|buh bye;
+private <phrase_set> = talk to you |talk |lets talk;
+private <time> = later|soon|someother time|afterwards;
+
+public <special> = see you later alligator | <phrase_set> <time>;
+public <bye> = <phrases> [<identity>];

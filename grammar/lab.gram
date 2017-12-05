@@ -1,0 +1,14 @@
+#JSGF V1.0
+
+grammar lab;
+
+private <question> = how|got|any;
+private <article> = a|the|an;
+private <lab> = lab|excercise|lab excercise|labs| lab example;
+private <be> = be|was|is|are|were;
+private <emotion> = good|bad|tough|easy|complex|hard;
+private <information> = info|information|stuff|details|type|detail|questions|question;
+
+public <set1> = <question> [<emotion>] [<be>] [<article>] <lab>;
+public <set2> = content <lab> [<emotion>];
+public <set3> = <lab> <information>;

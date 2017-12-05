@@ -1,0 +1,796 @@
+see you later alligator	Bye
+talk to you later	Bye
+talk to you soon	Bye
+talk to you someother time	Bye
+talk to you afterwards	Bye
+talk later	Bye
+talk soon	Bye
+talk someother time	Bye
+talk afterwards	Bye
+lets talk later	Bye
+lets talk soon	Bye
+lets talk someother time	Bye
+lets talk afterwards	Bye
+Cya	Bye
+Cya maam	Bye
+Cya madam	Bye
+Cya ma'am	Bye
+Cya sir	Bye
+Cya pal	Bye
+Cya buddy	Bye
+Cya bud	Bye
+Cya mate	Bye
+Cya man	Bye
+Cya woman	Bye
+Cya boy	Bye
+Cya girl	Bye
+Cya champ	Bye
+Cya kiddo	Bye
+Cya dude	Bye
+Cya lady	Bye
+Cya pretty	Bye
+Cya beautiful	Bye
+Cya bot	Bye
+Cya honey	Bye
+Cya hon	Bye
+Cya sweety	Bye
+Cya bro	Bye
+Cya sis	Bye
+Cya brother	Bye
+Cya sister	Bye
+Cya pops	Bye
+Cya pop	Bye
+Bye	Bye
+Bye maam	Bye
+Bye madam	Bye
+Bye ma'am	Bye
+Bye sir	Bye
+Bye pal	Bye
+Bye buddy	Bye
+Bye bud	Bye
+Bye mate	Bye
+Bye man	Bye
+Bye woman	Bye
+Bye boy	Bye
+Bye girl	Bye
+Bye champ	Bye
+Bye kiddo	Bye
+Bye dude	Bye
+Bye lady	Bye
+Bye pretty	Bye
+Bye beautiful	Bye
+Bye bot	Bye
+Bye honey	Bye
+Bye hon	Bye
+Bye sweety	Bye
+Bye bro	Bye
+Bye sis	Bye
+Bye brother	Bye
+Bye sister	Bye
+Bye pops	Bye
+Bye pop	Bye
+Bye Bye	Bye
+Bye Bye maam	Bye
+Bye Bye madam	Bye
+Bye Bye ma'am	Bye
+Bye Bye sir	Bye
+Bye Bye pal	Bye
+Bye Bye buddy	Bye
+Bye Bye bud	Bye
+Bye Bye mate	Bye
+Bye Bye man	Bye
+Bye Bye woman	Bye
+Bye Bye boy	Bye
+Bye Bye girl	Bye
+Bye Bye champ	Bye
+Bye Bye kiddo	Bye
+Bye Bye dude	Bye
+Bye Bye lady	Bye
+Bye Bye pretty	Bye
+Bye Bye beautiful	Bye
+Bye Bye bot	Bye
+Bye Bye honey	Bye
+Bye Bye hon	Bye
+Bye Bye sweety	Bye
+Bye Bye bro	Bye
+Bye Bye sis	Bye
+Bye Bye brother	Bye
+Bye Bye sister	Bye
+Bye Bye pops	Bye
+Bye Bye pop	Bye
+goodbye	Bye
+goodbye maam	Bye
+goodbye madam	Bye
+goodbye ma'am	Bye
+goodbye sir	Bye
+goodbye pal	Bye
+goodbye buddy	Bye
+goodbye bud	Bye
+goodbye mate	Bye
+goodbye man	Bye
+goodbye woman	Bye
+goodbye boy	Bye
+goodbye girl	Bye
+goodbye champ	Bye
+goodbye kiddo	Bye
+goodbye dude	Bye
+goodbye lady	Bye
+goodbye pretty	Bye
+goodbye beautiful	Bye
+goodbye bot	Bye
+goodbye honey	Bye
+goodbye hon	Bye
+goodbye sweety	Bye
+goodbye bro	Bye
+goodbye sis	Bye
+goodbye brother	Bye
+goodbye sister	Bye
+goodbye pops	Bye
+goodbye pop	Bye
+see you	Bye
+see you maam	Bye
+see you madam	Bye
+see you ma'am	Bye
+see you sir	Bye
+see you pal	Bye
+see you buddy	Bye
+see you bud	Bye
+see you mate	Bye
+see you man	Bye
+see you woman	Bye
+see you boy	Bye
+see you girl	Bye
+see you champ	Bye
+see you kiddo	Bye
+see you dude	Bye
+see you lady	Bye
+see you pretty	Bye
+see you beautiful	Bye
+see you bot	Bye
+see you honey	Bye
+see you hon	Bye
+see you sweety	Bye
+see you bro	Bye
+see you sis	Bye
+see you brother	Bye
+see you sister	Bye
+see you pops	Bye
+see you pop	Bye
+see you later	Bye
+see you later maam	Bye
+see you later madam	Bye
+see you later ma'am	Bye
+see you later sir	Bye
+see you later pal	Bye
+see you later buddy	Bye
+see you later bud	Bye
+see you later mate	Bye
+see you later man	Bye
+see you later woman	Bye
+see you later boy	Bye
+see you later girl	Bye
+see you later champ	Bye
+see you later kiddo	Bye
+see you later dude	Bye
+see you later lady	Bye
+see you later pretty	Bye
+see you later beautiful	Bye
+see you later bot	Bye
+see you later honey	Bye
+see you later hon	Bye
+see you later sweety	Bye
+see you later bro	Bye
+see you later sis	Bye
+see you later brother	Bye
+see you later sister	Bye
+see you later pops	Bye
+see you later pop	Bye
+godspeed	Bye
+godspeed maam	Bye
+godspeed madam	Bye
+godspeed ma'am	Bye
+godspeed sir	Bye
+godspeed pal	Bye
+godspeed buddy	Bye
+godspeed bud	Bye
+godspeed mate	Bye
+godspeed man	Bye
+godspeed woman	Bye
+godspeed boy	Bye
+godspeed girl	Bye
+godspeed champ	Bye
+godspeed kiddo	Bye
+godspeed dude	Bye
+godspeed lady	Bye
+godspeed pretty	Bye
+godspeed beautiful	Bye
+godspeed bot	Bye
+godspeed honey	Bye
+godspeed hon	Bye
+godspeed sweety	Bye
+godspeed bro	Bye
+godspeed sis	Bye
+godspeed brother	Bye
+godspeed sister	Bye
+godspeed pops	Bye
+godspeed pop	Bye
+ciao	Bye
+ciao maam	Bye
+ciao madam	Bye
+ciao ma'am	Bye
+ciao sir	Bye
+ciao pal	Bye
+ciao buddy	Bye
+ciao bud	Bye
+ciao mate	Bye
+ciao man	Bye
+ciao woman	Bye
+ciao boy	Bye
+ciao girl	Bye
+ciao champ	Bye
+ciao kiddo	Bye
+ciao dude	Bye
+ciao lady	Bye
+ciao pretty	Bye
+ciao beautiful	Bye
+ciao bot	Bye
+ciao honey	Bye
+ciao hon	Bye
+ciao sweety	Bye
+ciao bro	Bye
+ciao sis	Bye
+ciao brother	Bye
+ciao sister	Bye
+ciao pops	Bye
+ciao pop	Bye
+toodle-oo	Bye
+toodle-oo maam	Bye
+toodle-oo madam	Bye
+toodle-oo ma'am	Bye
+toodle-oo sir	Bye
+toodle-oo pal	Bye
+toodle-oo buddy	Bye
+toodle-oo bud	Bye
+toodle-oo mate	Bye
+toodle-oo man	Bye
+toodle-oo woman	Bye
+toodle-oo boy	Bye
+toodle-oo girl	Bye
+toodle-oo champ	Bye
+toodle-oo kiddo	Bye
+toodle-oo dude	Bye
+toodle-oo lady	Bye
+toodle-oo pretty	Bye
+toodle-oo beautiful	Bye
+toodle-oo bot	Bye
+toodle-oo honey	Bye
+toodle-oo hon	Bye
+toodle-oo sweety	Bye
+toodle-oo bro	Bye
+toodle-oo sis	Bye
+toodle-oo brother	Bye
+toodle-oo sister	Bye
+toodle-oo pops	Bye
+toodle-oo pop	Bye
+adieu	Bye
+adieu maam	Bye
+adieu madam	Bye
+adieu ma'am	Bye
+adieu sir	Bye
+adieu pal	Bye
+adieu buddy	Bye
+adieu bud	Bye
+adieu mate	Bye
+adieu man	Bye
+adieu woman	Bye
+adieu boy	Bye
+adieu girl	Bye
+adieu champ	Bye
+adieu kiddo	Bye
+adieu dude	Bye
+adieu lady	Bye
+adieu pretty	Bye
+adieu beautiful	Bye
+adieu bot	Bye
+adieu honey	Bye
+adieu hon	Bye
+adieu sweety	Bye
+adieu bro	Bye
+adieu sis	Bye
+adieu brother	Bye
+adieu sister	Bye
+adieu pops	Bye
+adieu pop	Bye
+adieus	Bye
+adieus maam	Bye
+adieus madam	Bye
+adieus ma'am	Bye
+adieus sir	Bye
+adieus pal	Bye
+adieus buddy	Bye
+adieus bud	Bye
+adieus mate	Bye
+adieus man	Bye
+adieus woman	Bye
+adieus boy	Bye
+adieus girl	Bye
+adieus champ	Bye
+adieus kiddo	Bye
+adieus dude	Bye
+adieus lady	Bye
+adieus pretty	Bye
+adieus beautiful	Bye
+adieus bot	Bye
+adieus honey	Bye
+adieus hon	Bye
+adieus sweety	Bye
+adieus bro	Bye
+adieus sis	Bye
+adieus brother	Bye
+adieus sister	Bye
+adieus pops	Bye
+adieus pop	Bye
+adieux	Bye
+adieux maam	Bye
+adieux madam	Bye
+adieux ma'am	Bye
+adieux sir	Bye
+adieux pal	Bye
+adieux buddy	Bye
+adieux bud	Bye
+adieux mate	Bye
+adieux man	Bye
+adieux woman	Bye
+adieux boy	Bye
+adieux girl	Bye
+adieux champ	Bye
+adieux kiddo	Bye
+adieux dude	Bye
+adieux lady	Bye
+adieux pretty	Bye
+adieux beautiful	Bye
+adieux bot	Bye
+adieux honey	Bye
+adieux hon	Bye
+adieux sweety	Bye
+adieux bro	Bye
+adieux sis	Bye
+adieux brother	Bye
+adieux sister	Bye
+adieux pops	Bye
+adieux pop	Bye
+adios	Bye
+adios maam	Bye
+adios madam	Bye
+adios ma'am	Bye
+adios sir	Bye
+adios pal	Bye
+adios buddy	Bye
+adios bud	Bye
+adios mate	Bye
+adios man	Bye
+adios woman	Bye
+adios boy	Bye
+adios girl	Bye
+adios champ	Bye
+adios kiddo	Bye
+adios dude	Bye
+adios lady	Bye
+adios pretty	Bye
+adios beautiful	Bye
+adios bot	Bye
+adios honey	Bye
+adios hon	Bye
+adios sweety	Bye
+adios bro	Bye
+adios sis	Bye
+adios brother	Bye
+adios sister	Bye
+adios pops	Bye
+adios pop	Bye
+bye-bye	Bye
+bye-bye maam	Bye
+bye-bye madam	Bye
+bye-bye ma'am	Bye
+bye-bye sir	Bye
+bye-bye pal	Bye
+bye-bye buddy	Bye
+bye-bye bud	Bye
+bye-bye mate	Bye
+bye-bye man	Bye
+bye-bye woman	Bye
+bye-bye boy	Bye
+bye-bye girl	Bye
+bye-bye champ	Bye
+bye-bye kiddo	Bye
+bye-bye dude	Bye
+bye-bye lady	Bye
+bye-bye pretty	Bye
+bye-bye beautiful	Bye
+bye-bye bot	Bye
+bye-bye honey	Bye
+bye-bye hon	Bye
+bye-bye sweety	Bye
+bye-bye bro	Bye
+bye-bye sis	Bye
+bye-bye brother	Bye
+bye-bye sister	Bye
+bye-bye pops	Bye
+bye-bye pop	Bye
+cheerio	Bye
+cheerio maam	Bye
+cheerio madam	Bye
+cheerio ma'am	Bye
+cheerio sir	Bye
+cheerio pal	Bye
+cheerio buddy	Bye
+cheerio bud	Bye
+cheerio mate	Bye
+cheerio man	Bye
+cheerio woman	Bye
+cheerio boy	Bye
+cheerio girl	Bye
+cheerio champ	Bye
+cheerio kiddo	Bye
+cheerio dude	Bye
+cheerio lady	Bye
+cheerio pretty	Bye
+cheerio beautiful	Bye
+cheerio bot	Bye
+cheerio honey	Bye
+cheerio hon	Bye
+cheerio sweety	Bye
+cheerio bro	Bye
+cheerio sis	Bye
+cheerio brother	Bye
+cheerio sister	Bye
+cheerio pops	Bye
+cheerio pop	Bye
+hasta la vista	Bye
+hasta la vista maam	Bye
+hasta la vista madam	Bye
+hasta la vista ma'am	Bye
+hasta la vista sir	Bye
+hasta la vista pal	Bye
+hasta la vista buddy	Bye
+hasta la vista bud	Bye
+hasta la vista mate	Bye
+hasta la vista man	Bye
+hasta la vista woman	Bye
+hasta la vista boy	Bye
+hasta la vista girl	Bye
+hasta la vista champ	Bye
+hasta la vista kiddo	Bye
+hasta la vista dude	Bye
+hasta la vista lady	Bye
+hasta la vista pretty	Bye
+hasta la vista beautiful	Bye
+hasta la vista bot	Bye
+hasta la vista honey	Bye
+hasta la vista hon	Bye
+hasta la vista sweety	Bye
+hasta la vista bro	Bye
+hasta la vista sis	Bye
+hasta la vista brother	Bye
+hasta la vista sister	Bye
+hasta la vista pops	Bye
+hasta la vista pop	Bye
+have a nice day	Bye
+have a nice day maam	Bye
+have a nice day madam	Bye
+have a nice day ma'am	Bye
+have a nice day sir	Bye
+have a nice day pal	Bye
+have a nice day buddy	Bye
+have a nice day bud	Bye
+have a nice day mate	Bye
+have a nice day man	Bye
+have a nice day woman	Bye
+have a nice day boy	Bye
+have a nice day girl	Bye
+have a nice day champ	Bye
+have a nice day kiddo	Bye
+have a nice day dude	Bye
+have a nice day lady	Bye
+have a nice day pretty	Bye
+have a nice day beautiful	Bye
+have a nice day bot	Bye
+have a nice day honey	Bye
+have a nice day hon	Bye
+have a nice day sweety	Bye
+have a nice day bro	Bye
+have a nice day sis	Bye
+have a nice day brother	Bye
+have a nice day sister	Bye
+have a nice day pops	Bye
+have a nice day pop	Bye
+have a nice night	Bye
+have a nice night maam	Bye
+have a nice night madam	Bye
+have a nice night ma'am	Bye
+have a nice night sir	Bye
+have a nice night pal	Bye
+have a nice night buddy	Bye
+have a nice night bud	Bye
+have a nice night mate	Bye
+have a nice night man	Bye
+have a nice night woman	Bye
+have a nice night boy	Bye
+have a nice night girl	Bye
+have a nice night champ	Bye
+have a nice night kiddo	Bye
+have a nice night dude	Bye
+have a nice night lady	Bye
+have a nice night pretty	Bye
+have a nice night beautiful	Bye
+have a nice night bot	Bye
+have a nice night honey	Bye
+have a nice night hon	Bye
+have a nice night sweety	Bye
+have a nice night bro	Bye
+have a nice night sis	Bye
+have a nice night brother	Bye
+have a nice night sister	Bye
+have a nice night pops	Bye
+have a nice night pop	Bye
+have a nice morning	Bye
+have a nice morning maam	Bye
+have a nice morning madam	Bye
+have a nice morning ma'am	Bye
+have a nice morning sir	Bye
+have a nice morning pal	Bye
+have a nice morning buddy	Bye
+have a nice morning bud	Bye
+have a nice morning mate	Bye
+have a nice morning man	Bye
+have a nice morning woman	Bye
+have a nice morning boy	Bye
+have a nice morning girl	Bye
+have a nice morning champ	Bye
+have a nice morning kiddo	Bye
+have a nice morning dude	Bye
+have a nice morning lady	Bye
+have a nice morning pretty	Bye
+have a nice morning beautiful	Bye
+have a nice morning bot	Bye
+have a nice morning honey	Bye
+have a nice morning hon	Bye
+have a nice morning sweety	Bye
+have a nice morning bro	Bye
+have a nice morning sis	Bye
+have a nice morning brother	Bye
+have a nice morning sister	Bye
+have a nice morning pops	Bye
+have a nice morning pop	Bye
+have a nice afternoon	Bye
+have a nice afternoon maam	Bye
+have a nice afternoon madam	Bye
+have a nice afternoon ma'am	Bye
+have a nice afternoon sir	Bye
+have a nice afternoon pal	Bye
+have a nice afternoon buddy	Bye
+have a nice afternoon bud	Bye
+have a nice afternoon mate	Bye
+have a nice afternoon man	Bye
+have a nice afternoon woman	Bye
+have a nice afternoon boy	Bye
+have a nice afternoon girl	Bye
+have a nice afternoon champ	Bye
+have a nice afternoon kiddo	Bye
+have a nice afternoon dude	Bye
+have a nice afternoon lady	Bye
+have a nice afternoon pretty	Bye
+have a nice afternoon beautiful	Bye
+have a nice afternoon bot	Bye
+have a nice afternoon honey	Bye
+have a nice afternoon hon	Bye
+have a nice afternoon sweety	Bye
+have a nice afternoon bro	Bye
+have a nice afternoon sis	Bye
+have a nice afternoon brother	Bye
+have a nice afternoon sister	Bye
+have a nice afternoon pops	Bye
+have a nice afternoon pop	Bye
+have a nice evening	Bye
+have a nice evening maam	Bye
+have a nice evening madam	Bye
+have a nice evening ma'am	Bye
+have a nice evening sir	Bye
+have a nice evening pal	Bye
+have a nice evening buddy	Bye
+have a nice evening bud	Bye
+have a nice evening mate	Bye
+have a nice evening man	Bye
+have a nice evening woman	Bye
+have a nice evening boy	Bye
+have a nice evening girl	Bye
+have a nice evening champ	Bye
+have a nice evening kiddo	Bye
+have a nice evening dude	Bye
+have a nice evening lady	Bye
+have a nice evening pretty	Bye
+have a nice evening beautiful	Bye
+have a nice evening bot	Bye
+have a nice evening honey	Bye
+have a nice evening hon	Bye
+have a nice evening sweety	Bye
+have a nice evening bro	Bye
+have a nice evening sis	Bye
+have a nice evening brother	Bye
+have a nice evening sister	Bye
+have a nice evening pops	Bye
+have a nice evening pop	Bye
+salutation	Bye
+salutation maam	Bye
+salutation madam	Bye
+salutation ma'am	Bye
+salutation sir	Bye
+salutation pal	Bye
+salutation buddy	Bye
+salutation bud	Bye
+salutation mate	Bye
+salutation man	Bye
+salutation woman	Bye
+salutation boy	Bye
+salutation girl	Bye
+salutation champ	Bye
+salutation kiddo	Bye
+salutation dude	Bye
+salutation lady	Bye
+salutation pretty	Bye
+salutation beautiful	Bye
+salutation bot	Bye
+salutation honey	Bye
+salutation hon	Bye
+salutation sweety	Bye
+salutation bro	Bye
+salutation sis	Bye
+salutation brother	Bye
+salutation sister	Bye
+salutation pops	Bye
+salutation pop	Bye
+salutations	Bye
+salutations maam	Bye
+salutations madam	Bye
+salutations ma'am	Bye
+salutations sir	Bye
+salutations pal	Bye
+salutations buddy	Bye
+salutations bud	Bye
+salutations mate	Bye
+salutations man	Bye
+salutations woman	Bye
+salutations boy	Bye
+salutations girl	Bye
+salutations champ	Bye
+salutations kiddo	Bye
+salutations dude	Bye
+salutations lady	Bye
+salutations pretty	Bye
+salutations beautiful	Bye
+salutations bot	Bye
+salutations honey	Bye
+salutations hon	Bye
+salutations sweety	Bye
+salutations bro	Bye
+salutations sis	Bye
+salutations brother	Bye
+salutations sister	Bye
+salutations pops	Bye
+salutations pop	Bye
+so long	Bye
+so long maam	Bye
+so long madam	Bye
+so long ma'am	Bye
+so long sir	Bye
+so long pal	Bye
+so long buddy	Bye
+so long bud	Bye
+so long mate	Bye
+so long man	Bye
+so long woman	Bye
+so long boy	Bye
+so long girl	Bye
+so long champ	Bye
+so long kiddo	Bye
+so long dude	Bye
+so long lady	Bye
+so long pretty	Bye
+so long beautiful	Bye
+so long bot	Bye
+so long honey	Bye
+so long hon	Bye
+so long sweety	Bye
+so long bro	Bye
+so long sis	Bye
+so long brother	Bye
+so long sister	Bye
+so long pops	Bye
+so long pop	Bye
+ta-ta	Bye
+ta-ta maam	Bye
+ta-ta madam	Bye
+ta-ta ma'am	Bye
+ta-ta sir	Bye
+ta-ta pal	Bye
+ta-ta buddy	Bye
+ta-ta bud	Bye
+ta-ta mate	Bye
+ta-ta man	Bye
+ta-ta woman	Bye
+ta-ta boy	Bye
+ta-ta girl	Bye
+ta-ta champ	Bye
+ta-ta kiddo	Bye
+ta-ta dude	Bye
+ta-ta lady	Bye
+ta-ta pretty	Bye
+ta-ta beautiful	Bye
+ta-ta bot	Bye
+ta-ta honey	Bye
+ta-ta hon	Bye
+ta-ta sweety	Bye
+ta-ta bro	Bye
+ta-ta sis	Bye
+ta-ta brother	Bye
+ta-ta sister	Bye
+ta-ta pops	Bye
+ta-ta pop	Bye
+farewell	Bye
+farewell maam	Bye
+farewell madam	Bye
+farewell ma'am	Bye
+farewell sir	Bye
+farewell pal	Bye
+farewell buddy	Bye
+farewell bud	Bye
+farewell mate	Bye
+farewell man	Bye
+farewell woman	Bye
+farewell boy	Bye
+farewell girl	Bye
+farewell champ	Bye
+farewell kiddo	Bye
+farewell dude	Bye
+farewell lady	Bye
+farewell pretty	Bye
+farewell beautiful	Bye
+farewell bot	Bye
+farewell honey	Bye
+farewell hon	Bye
+farewell sweety	Bye
+farewell bro	Bye
+farewell sis	Bye
+farewell brother	Bye
+farewell sister	Bye
+farewell pops	Bye
+farewell pop	Bye
+buh bye	Bye
+buh bye maam	Bye
+buh bye madam	Bye
+buh bye ma'am	Bye
+buh bye sir	Bye
+buh bye pal	Bye
+buh bye buddy	Bye
+buh bye bud	Bye
+buh bye mate	Bye
+buh bye man	Bye
+buh bye woman	Bye
+buh bye boy	Bye
+buh bye girl	Bye
+buh bye champ	Bye
+buh bye kiddo	Bye
+buh bye dude	Bye
+buh bye lady	Bye
+buh bye pretty	Bye
+buh bye beautiful	Bye
+buh bye bot	Bye
+buh bye honey	Bye
+buh bye hon	Bye
+buh bye sweety	Bye
+buh bye bro	Bye
+buh bye sis	Bye
+buh bye brother	Bye
+buh bye sister	Bye
+buh bye pops	Bye
+buh bye pop	Bye

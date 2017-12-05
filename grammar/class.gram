@@ -1,0 +1,9 @@
+#JSGF V1.0
+
+grammar class;
+
+private <article> = a|an|the; 
+public <set1> = (what|what will|which|tell|tell me|tell about|about) [is|was|are|were|be] (class|classes);
+public <set2> = (class|classes) [is|was|are|were|be] (what|what will|which|tell|tell me|tell about|about) ;
+public <set3> = (what|what will|which|tell|tell me|tell about|about) [is|was|are|were|be] <article> (class|classes);
+public <set4> = (class|classes) [is|was|are|were|be] <article> (what|what will|which|tell|tell me|tell about|about) ;

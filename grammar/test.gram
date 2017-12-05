@@ -1,0 +1,8 @@
+#JSGF V1.0
+
+grammer helloWorld;
+
+public <daytime> = morning | afternoon | evening | night;
+public <greet> = Hi | Hey | Hello | Greetings | Good (<daytime> | day);
+//public <greet> = Hi | Hey | Hello | Greetings;
+

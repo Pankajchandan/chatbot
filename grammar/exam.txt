@@ -1,0 +1,264 @@
+what exams	Exam details
+what exam	Exam details
+what test	Exam details
+what tests	Exam details
+what is exams	Exam details
+what is exam	Exam details
+what is test	Exam details
+what is tests	Exam details
+what was exams	Exam details
+what was exam	Exam details
+what was test	Exam details
+what was tests	Exam details
+what were exams	Exam details
+what were exam	Exam details
+what were test	Exam details
+what were tests	Exam details
+what are exams	Exam details
+what are exam	Exam details
+what are test	Exam details
+what are tests	Exam details
+how exams	Exam details
+how exam	Exam details
+how test	Exam details
+how tests	Exam details
+how is exams	Exam details
+how is exam	Exam details
+how is test	Exam details
+how is tests	Exam details
+how was exams	Exam details
+how was exam	Exam details
+how was test	Exam details
+how was tests	Exam details
+how were exams	Exam details
+how were exam	Exam details
+how were test	Exam details
+how were tests	Exam details
+how are exams	Exam details
+how are exam	Exam details
+how are test	Exam details
+how are tests	Exam details
+any exams	Exam details
+any exam	Exam details
+any test	Exam details
+any tests	Exam details
+any is exams	Exam details
+any is exam	Exam details
+any is test	Exam details
+any is tests	Exam details
+any was exams	Exam details
+any was exam	Exam details
+any was test	Exam details
+any was tests	Exam details
+any were exams	Exam details
+any were exam	Exam details
+any were test	Exam details
+any were tests	Exam details
+any are exams	Exam details
+any are exam	Exam details
+any are test	Exam details
+any are tests	Exam details
+exams	Exam details
+exam	Exam details
+test	Exam details
+tests	Exam details
+good exams	Exam details
+good exam	Exam details
+good test	Exam details
+good tests	Exam details
+bad exams	Exam details
+bad exam	Exam details
+bad test	Exam details
+bad tests	Exam details
+tough exams	Exam details
+tough exam	Exam details
+tough test	Exam details
+tough tests	Exam details
+easy exams	Exam details
+easy exam	Exam details
+easy test	Exam details
+easy tests	Exam details
+hard exams	Exam details
+hard exam	Exam details
+hard test	Exam details
+hard tests	Exam details
+simple exams	Exam details
+simple exam	Exam details
+simple test	Exam details
+simple tests	Exam details
+complex exams	Exam details
+complex exam	Exam details
+complex test	Exam details
+complex tests	Exam details
+is exams	Exam details
+is exam	Exam details
+is test	Exam details
+is tests	Exam details
+is good exams	Exam details
+is good exam	Exam details
+is good test	Exam details
+is good tests	Exam details
+is bad exams	Exam details
+is bad exam	Exam details
+is bad test	Exam details
+is bad tests	Exam details
+is tough exams	Exam details
+is tough exam	Exam details
+is tough test	Exam details
+is tough tests	Exam details
+is easy exams	Exam details
+is easy exam	Exam details
+is easy test	Exam details
+is easy tests	Exam details
+is hard exams	Exam details
+is hard exam	Exam details
+is hard test	Exam details
+is hard tests	Exam details
+is simple exams	Exam details
+is simple exam	Exam details
+is simple test	Exam details
+is simple tests	Exam details
+is complex exams	Exam details
+is complex exam	Exam details
+is complex test	Exam details
+is complex tests	Exam details
+was exams	Exam details
+was exam	Exam details
+was test	Exam details
+was tests	Exam details
+was good exams	Exam details
+was good exam	Exam details
+was good test	Exam details
+was good tests	Exam details
+was bad exams	Exam details
+was bad exam	Exam details
+was bad test	Exam details
+was bad tests	Exam details
+was tough exams	Exam details
+was tough exam	Exam details
+was tough test	Exam details
+was tough tests	Exam details
+was easy exams	Exam details
+was easy exam	Exam details
+was easy test	Exam details
+was easy tests	Exam details
+was hard exams	Exam details
+was hard exam	Exam details
+was hard test	Exam details
+was hard tests	Exam details
+was simple exams	Exam details
+was simple exam	Exam details
+was simple test	Exam details
+was simple tests	Exam details
+was complex exams	Exam details
+was complex exam	Exam details
+was complex test	Exam details
+was complex tests	Exam details
+were exams	Exam details
+were exam	Exam details
+were test	Exam details
+were tests	Exam details
+were good exams	Exam details
+were good exam	Exam details
+were good test	Exam details
+were good tests	Exam details
+were bad exams	Exam details
+were bad exam	Exam details
+were bad test	Exam details
+were bad tests	Exam details
+were tough exams	Exam details
+were tough exam	Exam details
+were tough test	Exam details
+were tough tests	Exam details
+were easy exams	Exam details
+were easy exam	Exam details
+were easy test	Exam details
+were easy tests	Exam details
+were hard exams	Exam details
+were hard exam	Exam details
+were hard test	Exam details
+were hard tests	Exam details
+were simple exams	Exam details
+were simple exam	Exam details
+were simple test	Exam details
+were simple tests	Exam details
+were complex exams	Exam details
+were complex exam	Exam details
+were complex test	Exam details
+were complex tests	Exam details
+are exams	Exam details
+are exam	Exam details
+are test	Exam details
+are tests	Exam details
+are good exams	Exam details
+are good exam	Exam details
+are good test	Exam details
+are good tests	Exam details
+are bad exams	Exam details
+are bad exam	Exam details
+are bad test	Exam details
+are bad tests	Exam details
+are tough exams	Exam details
+are tough exam	Exam details
+are tough test	Exam details
+are tough tests	Exam details
+are easy exams	Exam details
+are easy exam	Exam details
+are easy test	Exam details
+are easy tests	Exam details
+are hard exams	Exam details
+are hard exam	Exam details
+are hard test	Exam details
+are hard tests	Exam details
+are simple exams	Exam details
+are simple exam	Exam details
+are simple test	Exam details
+are simple tests	Exam details
+are complex exams	Exam details
+are complex exam	Exam details
+are complex test	Exam details
+are complex tests	Exam details
+exams info	Exam details
+exams information	Exam details
+exams stuff	Exam details
+exams details	Exam details
+exams type	Exam details
+exams detail	Exam details
+exams questions	Exam details
+exams question	Exam details
+exam info	Exam details
+exam information	Exam details
+exam stuff	Exam details
+exam details	Exam details
+exam type	Exam details
+exam detail	Exam details
+exam questions	Exam details
+exam question	Exam details
+test info	Exam details
+test information	Exam details
+test stuff	Exam details
+test details	Exam details
+test type	Exam details
+test detail	Exam details
+test questions	Exam details
+test question	Exam details
+tests info	Exam details
+tests information	Exam details
+tests stuff	Exam details
+tests details	Exam details
+tests type	Exam details
+tests detail	Exam details
+tests questions	Exam details
+tests question	Exam details
+class exams	Exam details
+class exam	Exam details
+class test	Exam details
+class tests	Exam details
+lecture exams	Exam details
+lecture exam	Exam details
+lecture test	Exam details
+lecture tests	Exam details
+session exams	Exam details
+session exam	Exam details
+session test	Exam details
+session tests	Exam details
