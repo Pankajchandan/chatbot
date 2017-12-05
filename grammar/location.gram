@@ -1,0 +1,14 @@
+#JSGF V1.0
+
+grammar location;
+
+private <object> = professor|teacher|man|lady|madam|sir|maam|ma'am|guy|woman|lecturer;
+private <be> = be|was|is|are;
+private <location> = location|place|area|room;
+private <question> = where|what;
+private <article> = a|an|the;
+
+public <set1> = <object> office <location>;
+public <set2> = <question> <be> <article> [<object>] office [<location>];
+public <set3> = office <location>;
+public <set4> = where does the <object> sit;

@@ -1,0 +1,6 @@
+#JSGF V1.0
+
+grammar how_are_you;
+
+private <identity> = maam|madam|ma'am|sir|pal|buddy|bud|babe|honey|hon|sweety|mate|man|woman|boy|girl|champ|kiddo|dude|lady|pretty|beautiful|bot;
+

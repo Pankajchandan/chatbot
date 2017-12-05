@@ -1,0 +1,208 @@
+professor name	Professor's name
+teacher name	Professor's name
+man name	Professor's name
+lady name	Professor's name
+madam name	Professor's name
+sir name	Professor's name
+maam name	Professor's name
+ma'am name	Professor's name
+guy name	Professor's name
+woman name	Professor's name
+lecturer name	Professor's name
+profs name	Professor's name
+name of professor	Professor's name
+name of teacher	Professor's name
+name of man	Professor's name
+name of lady	Professor's name
+name of madam	Professor's name
+name of sir	Professor's name
+name of maam	Professor's name
+name of ma'am	Professor's name
+name of guy	Professor's name
+name of woman	Professor's name
+name of lecturer	Professor's name
+name of profs	Professor's name
+name of the professor	Professor's name
+name of the teacher	Professor's name
+name of the man	Professor's name
+name of the lady	Professor's name
+name of the madam	Professor's name
+name of the sir	Professor's name
+name of the maam	Professor's name
+name of the ma'am	Professor's name
+name of the guy	Professor's name
+name of the woman	Professor's name
+name of the lecturer	Professor's name
+name of the profs	Professor's name
+name of a professor	Professor's name
+name of a teacher	Professor's name
+name of a man	Professor's name
+name of a lady	Professor's name
+name of a madam	Professor's name
+name of a sir	Professor's name
+name of a maam	Professor's name
+name of a ma'am	Professor's name
+name of a guy	Professor's name
+name of a woman	Professor's name
+name of a lecturer	Professor's name
+name of a profs	Professor's name
+name of an professor	Professor's name
+name of an teacher	Professor's name
+name of an man	Professor's name
+name of an lady	Professor's name
+name of an madam	Professor's name
+name of an sir	Professor's name
+name of an maam	Professor's name
+name of an ma'am	Professor's name
+name of an guy	Professor's name
+name of an woman	Professor's name
+name of an lecturer	Professor's name
+name of an profs	Professor's name
+which professor	Professor's name
+which teacher	Professor's name
+which man	Professor's name
+which lady	Professor's name
+which madam	Professor's name
+which sir	Professor's name
+which maam	Professor's name
+which ma'am	Professor's name
+which guy	Professor's name
+which woman	Professor's name
+which lecturer	Professor's name
+which profs	Professor's name
+which the professor	Professor's name
+which the teacher	Professor's name
+which the man	Professor's name
+which the lady	Professor's name
+which the madam	Professor's name
+which the sir	Professor's name
+which the maam	Professor's name
+which the ma'am	Professor's name
+which the guy	Professor's name
+which the woman	Professor's name
+which the lecturer	Professor's name
+which the profs	Professor's name
+which a professor	Professor's name
+which a teacher	Professor's name
+which a man	Professor's name
+which a lady	Professor's name
+which a madam	Professor's name
+which a sir	Professor's name
+which a maam	Professor's name
+which a ma'am	Professor's name
+which a guy	Professor's name
+which a woman	Professor's name
+which a lecturer	Professor's name
+which a profs	Professor's name
+which an professor	Professor's name
+which an teacher	Professor's name
+which an man	Professor's name
+which an lady	Professor's name
+which an madam	Professor's name
+which an sir	Professor's name
+which an maam	Professor's name
+which an ma'am	Professor's name
+which an guy	Professor's name
+which an woman	Professor's name
+which an lecturer	Professor's name
+which an profs	Professor's name
+who professor	Professor's name
+who teacher	Professor's name
+who man	Professor's name
+who lady	Professor's name
+who madam	Professor's name
+who sir	Professor's name
+who maam	Professor's name
+who ma'am	Professor's name
+who guy	Professor's name
+who woman	Professor's name
+who lecturer	Professor's name
+who profs	Professor's name
+who the professor	Professor's name
+who the teacher	Professor's name
+who the man	Professor's name
+who the lady	Professor's name
+who the madam	Professor's name
+who the sir	Professor's name
+who the maam	Professor's name
+who the ma'am	Professor's name
+who the guy	Professor's name
+who the woman	Professor's name
+who the lecturer	Professor's name
+who the profs	Professor's name
+who a professor	Professor's name
+who a teacher	Professor's name
+who a man	Professor's name
+who a lady	Professor's name
+who a madam	Professor's name
+who a sir	Professor's name
+who a maam	Professor's name
+who a ma'am	Professor's name
+who a guy	Professor's name
+who a woman	Professor's name
+who a lecturer	Professor's name
+who a profs	Professor's name
+who an professor	Professor's name
+who an teacher	Professor's name
+who an man	Professor's name
+who an lady	Professor's name
+who an madam	Professor's name
+who an sir	Professor's name
+who an maam	Professor's name
+who an ma'am	Professor's name
+who an guy	Professor's name
+who an woman	Professor's name
+who an lecturer	Professor's name
+who an profs	Professor's name
+which teach subject	Professor's name
+which teach class	Professor's name
+which teach session	Professor's name
+which teach lecture	Professor's name
+which taught subject	Professor's name
+which taught class	Professor's name
+which taught session	Professor's name
+which taught lecture	Professor's name
+which teaches subject	Professor's name
+which teaches class	Professor's name
+which teaches session	Professor's name
+which teaches lecture	Professor's name
+which takes subject	Professor's name
+which takes class	Professor's name
+which takes session	Professor's name
+which takes lecture	Professor's name
+who teach subject	Professor's name
+who teach class	Professor's name
+who teach session	Professor's name
+who teach lecture	Professor's name
+who taught subject	Professor's name
+who taught class	Professor's name
+who taught session	Professor's name
+who taught lecture	Professor's name
+who teaches subject	Professor's name
+who teaches class	Professor's name
+who teaches session	Professor's name
+who teaches lecture	Professor's name
+who takes subject	Professor's name
+who takes class	Professor's name
+who takes session	Professor's name
+who takes lecture	Professor's name
+which teach	Professor's name
+which taught	Professor's name
+which teaches	Professor's name
+which takes	Professor's name
+who teach	Professor's name
+who taught	Professor's name
+who teaches	Professor's name
+who takes	Professor's name
+what professor name	Professor's name
+what teacher name	Professor's name
+what man name	Professor's name
+what lady name	Professor's name
+what madam name	Professor's name
+what sir name	Professor's name
+what maam name	Professor's name
+what ma'am name	Professor's name
+what guy name	Professor's name
+what woman name	Professor's name
+what lecturer name	Professor's name
+what profs name	Professor's name

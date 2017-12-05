@@ -1,0 +1,17 @@
+#JSGF V1.0
+
+grammar syllabus;
+
+private <identity> = professor|lecturer|maam|sir|madam|teacher|prof;
+
+private <article> = the|an|a;
+private <question> = what|which;
+private <be> = is|was|were|are|be|does|do;
+private <subject> = syllabus|topic|topics|material|exam|syllab|content;
+private <action> = teach|taught|teaches|cover|present;
+
+
+public <set1> = <question> <be> [<article> <identity>] <action>;
+public <set2> = <subject> <action>;
+public <set3> = <question> <subject>;
+public <set4> = <subject>;

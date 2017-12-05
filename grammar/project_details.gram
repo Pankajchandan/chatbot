@@ -1,0 +1,14 @@
+#JSGF V1.0
+
+grammar project_details;
+
+private <action> = task|job|work|detail|details|information|info;
+private <article> = a|an|the;
+private <be> = is|are|was|were|be;
+private <subject> = project|projects;
+private <question> = what|which|how;
+
+
+public <set1> = <question> [<be>] [<article>] <subject> [<action>];
+public <set2> = <subject> [<action>];
+public <set3> = about <subject> [<action>];

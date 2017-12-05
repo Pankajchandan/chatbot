@@ -1,0 +1,15 @@
+#JSGF V1.0
+
+grammar how_are_you;
+
+private <identity> = maam|madam|ma'am|sir|pal|buddy|bud|mate|man|woman|boy|girl|champ|kiddo|dude|lady|pretty|beautiful|bot|honey|hon|sweety|bro|sis|brother|sister|pops|pop;
+private <question> = what|how;
+private <action> = going|go|do|doing|happen|happening;
+private <emotion> = well|good|awesome|happy|great;
+
+
+public <set1> = <question> <action>;
+public <set2> = <action> <emotion>;
+public <set3> = you <emotion>;
+public <set4> = <question> you <action>;
+public <set5> = you [<action>] <emotion>;

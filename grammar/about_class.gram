@@ -1,0 +1,14 @@
+#JSGF V1.0
+
+grammar about_class;
+
+private <question> = how|tell me;
+private <be> = is|was|were|will;
+private <emotion> = easy|awesome|good|bad|boring;
+private <predicate> = subject|class|session|lecture;
+private <article> = a|an|the;
+
+
+public <set1> = [<be>] <emotion> <predicate>;
+public <set2> = <question> <be> <predicate>;
+public <set3> = <question> about <article> <predicate>;

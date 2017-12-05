@@ -1,0 +1,243 @@
+class location	Lecture room location
+class place	Lecture room location
+class area	Lecture room location
+class building	Lecture room location
+class room	Lecture room location
+class space	Lecture room location
+class hall	Lecture room location
+lecture location	Lecture room location
+lecture place	Lecture room location
+lecture area	Lecture room location
+lecture building	Lecture room location
+lecture room	Lecture room location
+lecture space	Lecture room location
+lecture hall	Lecture room location
+session location	Lecture room location
+session place	Lecture room location
+session area	Lecture room location
+session building	Lecture room location
+session room	Lecture room location
+session space	Lecture room location
+session hall	Lecture room location
+where class location	Lecture room location
+where class place	Lecture room location
+where class area	Lecture room location
+where class building	Lecture room location
+where class room	Lecture room location
+where class space	Lecture room location
+where class hall	Lecture room location
+where lecture location	Lecture room location
+where lecture place	Lecture room location
+where lecture area	Lecture room location
+where lecture building	Lecture room location
+where lecture room	Lecture room location
+where lecture space	Lecture room location
+where lecture hall	Lecture room location
+where session location	Lecture room location
+where session place	Lecture room location
+where session area	Lecture room location
+where session building	Lecture room location
+where session room	Lecture room location
+where session space	Lecture room location
+where session hall	Lecture room location
+where be class location	Lecture room location
+where be class place	Lecture room location
+where be class area	Lecture room location
+where be class building	Lecture room location
+where be class room	Lecture room location
+where be class space	Lecture room location
+where be class hall	Lecture room location
+where be lecture location	Lecture room location
+where be lecture place	Lecture room location
+where be lecture area	Lecture room location
+where be lecture building	Lecture room location
+where be lecture room	Lecture room location
+where be lecture space	Lecture room location
+where be lecture hall	Lecture room location
+where be session location	Lecture room location
+where be session place	Lecture room location
+where be session area	Lecture room location
+where be session building	Lecture room location
+where be session room	Lecture room location
+where be session space	Lecture room location
+where be session hall	Lecture room location
+where is class location	Lecture room location
+where is class place	Lecture room location
+where is class area	Lecture room location
+where is class building	Lecture room location
+where is class room	Lecture room location
+where is class space	Lecture room location
+where is class hall	Lecture room location
+where is lecture location	Lecture room location
+where is lecture place	Lecture room location
+where is lecture area	Lecture room location
+where is lecture building	Lecture room location
+where is lecture room	Lecture room location
+where is lecture space	Lecture room location
+where is lecture hall	Lecture room location
+where is session location	Lecture room location
+where is session place	Lecture room location
+where is session area	Lecture room location
+where is session building	Lecture room location
+where is session room	Lecture room location
+where is session space	Lecture room location
+where is session hall	Lecture room location
+where was class location	Lecture room location
+where was class place	Lecture room location
+where was class area	Lecture room location
+where was class building	Lecture room location
+where was class room	Lecture room location
+where was class space	Lecture room location
+where was class hall	Lecture room location
+where was lecture location	Lecture room location
+where was lecture place	Lecture room location
+where was lecture area	Lecture room location
+where was lecture building	Lecture room location
+where was lecture room	Lecture room location
+where was lecture space	Lecture room location
+where was lecture hall	Lecture room location
+where was session location	Lecture room location
+where was session place	Lecture room location
+where was session area	Lecture room location
+where was session building	Lecture room location
+where was session room	Lecture room location
+where was session space	Lecture room location
+where was session hall	Lecture room location
+where were class location	Lecture room location
+where were class place	Lecture room location
+where were class area	Lecture room location
+where were class building	Lecture room location
+where were class room	Lecture room location
+where were class space	Lecture room location
+where were class hall	Lecture room location
+where were lecture location	Lecture room location
+where were lecture place	Lecture room location
+where were lecture area	Lecture room location
+where were lecture building	Lecture room location
+where were lecture room	Lecture room location
+where were lecture space	Lecture room location
+where were lecture hall	Lecture room location
+where were session location	Lecture room location
+where were session place	Lecture room location
+where were session area	Lecture room location
+where were session building	Lecture room location
+where were session room	Lecture room location
+where were session space	Lecture room location
+where were session hall	Lecture room location
+class location where	Lecture room location
+class location be where	Lecture room location
+class location is where	Lecture room location
+class location was where	Lecture room location
+class location were where	Lecture room location
+class place where	Lecture room location
+class place be where	Lecture room location
+class place is where	Lecture room location
+class place was where	Lecture room location
+class place were where	Lecture room location
+class area where	Lecture room location
+class area be where	Lecture room location
+class area is where	Lecture room location
+class area was where	Lecture room location
+class area were where	Lecture room location
+class building where	Lecture room location
+class building be where	Lecture room location
+class building is where	Lecture room location
+class building was where	Lecture room location
+class building were where	Lecture room location
+class room where	Lecture room location
+class room be where	Lecture room location
+class room is where	Lecture room location
+class room was where	Lecture room location
+class room were where	Lecture room location
+class space where	Lecture room location
+class space be where	Lecture room location
+class space is where	Lecture room location
+class space was where	Lecture room location
+class space were where	Lecture room location
+class hall where	Lecture room location
+class hall be where	Lecture room location
+class hall is where	Lecture room location
+class hall was where	Lecture room location
+class hall were where	Lecture room location
+lecture location where	Lecture room location
+lecture location be where	Lecture room location
+lecture location is where	Lecture room location
+lecture location was where	Lecture room location
+lecture location were where	Lecture room location
+lecture place where	Lecture room location
+lecture place be where	Lecture room location
+lecture place is where	Lecture room location
+lecture place was where	Lecture room location
+lecture place were where	Lecture room location
+lecture area where	Lecture room location
+lecture area be where	Lecture room location
+lecture area is where	Lecture room location
+lecture area was where	Lecture room location
+lecture area were where	Lecture room location
+lecture building where	Lecture room location
+lecture building be where	Lecture room location
+lecture building is where	Lecture room location
+lecture building was where	Lecture room location
+lecture building were where	Lecture room location
+lecture room where	Lecture room location
+lecture room be where	Lecture room location
+lecture room is where	Lecture room location
+lecture room was where	Lecture room location
+lecture room were where	Lecture room location
+lecture space where	Lecture room location
+lecture space be where	Lecture room location
+lecture space is where	Lecture room location
+lecture space was where	Lecture room location
+lecture space were where	Lecture room location
+lecture hall where	Lecture room location
+lecture hall be where	Lecture room location
+lecture hall is where	Lecture room location
+lecture hall was where	Lecture room location
+lecture hall were where	Lecture room location
+session location where	Lecture room location
+session location be where	Lecture room location
+session location is where	Lecture room location
+session location was where	Lecture room location
+session location were where	Lecture room location
+session place where	Lecture room location
+session place be where	Lecture room location
+session place is where	Lecture room location
+session place was where	Lecture room location
+session place were where	Lecture room location
+session area where	Lecture room location
+session area be where	Lecture room location
+session area is where	Lecture room location
+session area was where	Lecture room location
+session area were where	Lecture room location
+session building where	Lecture room location
+session building be where	Lecture room location
+session building is where	Lecture room location
+session building was where	Lecture room location
+session building were where	Lecture room location
+session room where	Lecture room location
+session room be where	Lecture room location
+session room is where	Lecture room location
+session room was where	Lecture room location
+session room were where	Lecture room location
+session space where	Lecture room location
+session space be where	Lecture room location
+session space is where	Lecture room location
+session space was where	Lecture room location
+session space were where	Lecture room location
+session hall where	Lecture room location
+session hall be where	Lecture room location
+session hall is where	Lecture room location
+session hall was where	Lecture room location
+session hall were where	Lecture room location
+where be class	Lecture room location
+where be lecture	Lecture room location
+where be session	Lecture room location
+where is class	Lecture room location
+where is lecture	Lecture room location
+where is session	Lecture room location
+where was class	Lecture room location
+where was lecture	Lecture room location
+where was session	Lecture room location
+where were class	Lecture room location
+where were lecture	Lecture room location
+where were session	Lecture room location

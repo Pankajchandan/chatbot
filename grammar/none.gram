@@ -1,0 +1,9 @@
+#JSGF V1.0
+
+grammar none;
+
+private <question> = why|what|when|how|where|which;
+private <be> = be|was|were|is|has|have;
+private <article> = a|an|the;
+private <object> = grades|college|student|facility|food|sports|entertainment|finance|magic|movies|drama|climax|country|chocolate;
+public <set1> = [<question>] [<be>] [<article>] <object>;
