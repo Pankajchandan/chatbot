@@ -1,3 +1,3 @@
 The professor's name is Simon Shim
 Professor Simon Shim takes the Deep Learning class
-Professor Shim teached this Deep Learning class
+Professor Shim teaches this Deep Learning class
