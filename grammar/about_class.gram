@@ -9,6 +9,7 @@ private <predicate> = subject|class|session|lecture;
 private <article> = a|an|the;
 
 
+public <command> = [tell me] [about the] [<teacher>] [<name>] <class>;
 public <set1> = [<be>] <emotion> <predicate>;
 public <set2> = <question> <be> <predicate>;
 public <set3> = <question> about <article> <predicate>;
