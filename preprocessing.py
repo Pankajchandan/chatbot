@@ -42,7 +42,8 @@ def text_to_wordlist(text, remove_stopwords=False):
     #
     # 8. Join the words back into one string separated by space, 
     #    and return the result.
-    return(lemma_words)
+    #return(lemma_words)
+    return(meaningful_words)
 
 
 # Define a function to split a review into parsed sentences
@@ -159,7 +160,8 @@ def preprocess_data(df, model):
     for text in df["text"]:
         textlist.append(text_to_wordlist(text, remove_stopwords=True ))
         
-    seq_len = max(len(x)for x in textlist)
+    #seq_len = max(len(x)for x in textlist)
+    seq_len = 10
     print("max seq length = ",seq_len)
     print("padding textlist ")
     for i in range(len(textlist)):
